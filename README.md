@@ -8,18 +8,18 @@ A one-stop shop for Tier 1 Help Desk admins — troubleshooting guides, resource
 
 ```
 TheHelpDesk-toolkit/
-├── scripts/
-│   ├── windows/         # PowerShell & batch scripts for Windows tasks
-│   ├── network/         # Network diagnostics and connectivity scripts
-│   └── user-management/ # AD, account resets, onboarding/offboarding
-├── troubleshooting/
-│   ├── common-issues/   # Step-by-step guides for frequent tickets
-│   └── checklists/      # Pre-flight checklists before escalating
 ├── resources/
 │   ├── kb-articles/     # Internal knowledge base articles
-│   ├── templates/       # Email templates, ticket templates
-│   └── policies/        # IT policies and procedures reference
-└── tools/               # Portable/standalone tools and utilities
+│   ├── policies/        # IT policies and procedures reference
+│   └── templates/       # Email templates, ticket templates
+├── scripts/
+│   ├── network/         # Network diagnostics and connectivity scripts
+│   ├── user-management/ # AD, account resets, onboarding/offboarding
+│   └── windows/         # PowerShell & batch scripts for Windows tasks
+├── tools/               # Portable/standalone tools and utilities
+└── troubleshooting/
+    ├── checklists/      # Pre-flight checklists before escalating
+    └── common-issues/   # Step-by-step guides for frequent tickets
 ```
 
 ---
