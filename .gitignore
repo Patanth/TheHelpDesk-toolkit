@@ -6,6 +6,9 @@ passwords.txt
 *.key
 *.pem
 
+# Claude Code local settings
+.claude/
+
 # OS files
 Thumbs.db
 .DS_Store
