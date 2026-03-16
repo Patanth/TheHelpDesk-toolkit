@@ -1,0 +1,17 @@
+# Credentials and sensitive data — NEVER commit these
+*.env
+*.credentials
+secrets/
+passwords.txt
+*.key
+*.pem
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor files
+.vscode/
+*.suo
+*.user
