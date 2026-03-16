@@ -9,17 +9,41 @@ A one-stop shop for Tier 1 Help Desk admins — troubleshooting guides, resource
 ```
 TheHelpDesk-toolkit/
 ├── scripts/
-│   ├── windows/         # PowerShell & batch scripts for Windows tasks
-│   ├── network/         # Network diagnostics and connectivity scripts
-│   └── user-management/ # AD, account resets, onboarding/offboarding
+│   ├── windows/
+│   │   ├── Clear-PrintQueue.ps1
+│   │   ├── Get-SystemInfo.ps1
+│   │   └── Repair-WindowsUpdate.ps1
+│   ├── network/
+│   │   ├── Flush-DNS-Reset-Network.ps1
+│   │   └── Network-Diagnostics.ps1
+│   └── user-management/
+│       ├── Get-ADUserInfo.ps1
+│       ├── Reset-ADPassword.ps1
+│       └── Unlock-ADAccount.ps1
 ├── troubleshooting/
-│   ├── common-issues/   # Step-by-step guides for frequent tickets
-│   └── checklists/      # Pre-flight checklists before escalating
+│   ├── common-issues/
+│   │   ├── no-internet-connection.md
+│   │   ├── outlook-not-syncing.md
+│   │   ├── printer-offline.md
+│   │   ├── user-cant-login.md
+│   │   └── vpn-not-connecting.md
+│   └── checklists/
+│       ├── new-ticket-checklist.md
+│       └── pre-escalation-checklist.md
 ├── resources/
-│   ├── kb-articles/     # Internal knowledge base articles
-│   ├── templates/       # Email templates, ticket templates
-│   └── policies/        # IT policies and procedures reference
-└── tools/               # Portable/standalone tools and utilities
+│   ├── kb-articles/
+│   │   ├── common-error-codes.md
+│   │   └── port-numbers-reference.md
+│   ├── templates/
+│   │   ├── escalation-email-template.md
+│   │   ├── offboarding-checklist.md
+│   │   ├── onboarding-checklist.md
+│   │   └── shift-handoff-template.md
+│   └── policies/
+│       ├── escalation-policy.md
+│       └── password-policy-reference.md
+└── tools/
+    └── revo-uninstaller.md
 ```
 
 ---
