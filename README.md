@@ -43,6 +43,16 @@ TheHelpDesk-toolkit/
 
 ---
 
+## A Note on AI-Assisted Content
+
+This repository was built with the assistance of [Claude Code](https://claude.ai/claude-code) by Anthropic. AI tools are welcome and encouraged as part of the contribution process — they can be a great way to draft scripts, generate templates, and speed up documentation.
+
+That said, **all AI-generated content must be reviewed and verified by the contributor before being submitted.** Please do not blindly push AI output without first testing it in your environment and confirming it works as intended. You are responsible for what you submit — AI is a tool, not a substitute for your judgement.
+
+> If it hasn't been tested, it isn't ready.
+
+---
+
 ## Categories Covered
 
 - Password resets & account lockouts
