@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "WebFetch(domain:www.revouninstaller.com)"
+    ]
+  }
+}
